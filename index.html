@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //task1
+            let number1 = parseInt(prompt("Ilk ededi daxil edin."));
+        let number2 =parseInt(prompt("Ikinci ededi daxil edin."));
+console.log(number1+number2);
+console.log(number1-number2);
+console.log(number1*number2);
+console.log(number1/number2); 
+
+
+//task2
+
+let username =prompt("Istifadeci adinizi daxil edin Istifadeci adiniz 4 hərfdən böyük 18 hərfdən kiçik olmalıdır")
+let password =prompt("Sifrenizi daxil edin Sifreniz 8 dən böyük olmalıdır")
+
+if (  username.length < 18 && username.length>4) {
+    console.log("Istifadeci adiniz sertlere uygundur")
+  } else {
+    console.log("Istifadeci adiniiz sertlere uygun deyil")
+  }
+  if ( password.length>8){
+    console.log("Sifreniz sertlere uygundur")
+  } else  {
+   console.log("Sifreniz sertlere uygun deyil")
+  }
+  let checkedName =prompt("Istifadeci adinizi yeniden daxil edin")
+  let  checkedPassword =prompt("Sifrenizi  yeniden daxil edin")
+  if(checkedPassword==password, checkedName==username){
+    console.log("Ugurla qeydiyyatdan kecdiniz")
+  }  else{
+      console.log("Yanlis ad ve sifre daxil edilib")
+    }
+
+
+
+
+
+    </script>
+</body>
+</html>
